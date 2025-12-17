@@ -45,7 +45,6 @@ button{
     box-shadow:0 6px 18px rgba(0,0,0,0.08);
     font-family: sans-serif;
     color: rgb(0,0,0);
-    border-radius:8px;
 }
 #message-area h2{
     margin-top:0;
@@ -84,3 +83,6 @@ button{
     #message-text{font-size:15px;line-height:1.5}
     .typing-cursor{height:0.95em;width:2px}
 } 
+
+/* Remove border radius from all elements */
+* { border-radius: 0; }
